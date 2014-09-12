@@ -14,6 +14,8 @@
 	
 	<!-- <link rel="stylesheet" href="style.css"> -->
 	
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	
 </head>
 <body>
 
@@ -24,7 +26,7 @@
 	<!-- [END] head -->
 	
 	<!-- [BEGIN] The loop -->
-	<?php if (have_posts()) : while (have_posts()) : the_post();?>
+	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		
 		<h1><?php the_title(); ?></h1>
 	
