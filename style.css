@@ -6,3 +6,34 @@ Author URI: http://registerguard.com
 Description: Forms theme
 Version: 1.0
 */
+
+/* form wrapper */
+.form-wrap{
+	max-width: 960px;
+	margin: 20px auto;
+	border: 5px solid black;
+	padding: 30px;
+}
+
+/* form title */
+.gform_title{
+	font-size: 24px;
+}
+
+/* form hr's */
+hr{
+	background: #ccc;
+	height: 3px;
+	border: none;
+	margin: 30px;
+}
+
+/* let form elements breathe */
+li{
+	margin: 20px;
+}
+
+/* nudge in radio buttons so they're not cut off */
+li input{
+	margin: 5px;
+}
