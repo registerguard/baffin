@@ -1,18 +1,21 @@
 <?php get_header(); ?>
 	
-	<div class="form-wrap">
+	<div class="home-wrap">
 		
-		<!-- [BEGIN] The loop -->
-		<?php while (have_posts()): ?>
+		<div class="form-inner">
 		
-			<?=the_post()?>
+			<!-- [BEGIN] The loop -->
+			<?php while (have_posts()): ?>
 			
-			<!-- <h1><?php the_title(); ?></h1> -->
+				<?=the_post()?>
 			
-			<?=the_content()?>
+				<h1><a href="<?=the_permalink()?>"><?=the_title()?></a></h1>
+				<div class="form-category"><?=the_category()?></div>
+				
+			<?php endwhile; ?>
+			<!-- [END] The loop -->
 			
-		<?php endwhile; ?>
-		<!-- [END] The loop -->
+		</div><!-- /.form-inner -->
 		
 	</div><!-- /.form-wrap -->
 	

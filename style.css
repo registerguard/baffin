@@ -7,12 +7,57 @@ Description: Forms theme
 Version: 1.0
 */
 
+/* links */
+a:link { color: #000; }
+
+a:visited { color: #555; }
+
+a:hover { color: #ae1a1f; }
+
+a:active { color: #ae1a1f; }
+
+/* home wrap */
+.home-wrap{
+	max-width: 960px;
+	margin: 20px auto;
+}
+
+h1{
+	font-family: "MillerHeadline Bold", Georgia, Cambria, serif;
+	margin-bottom: 0;
+}
+
+.form-category ul{
+	margin: 0;
+	padding: 0;
+}
+
+.form-category li{
+	list-style: none;
+	display: inline;
+}
+
+.form-category a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "BentonSansCond Regular", Georgia, Cambria, serif;
+	
+}
+
+body{
+	background: #eee;
+}
+
 /* form wrapper */
 .form-wrap{
 	max-width: 960px;
-	margin: 20px auto;
-	border: 5px solid black;
-	padding: 30px;
+	margin: 0 auto;
+}
+
+.form-inner{
+	margin: 15px;
+	padding: 15px;
+	background: #fff;
 }
 
 /* form title */
@@ -29,11 +74,56 @@ hr{
 }
 
 /* let form elements breathe */
-li{
+form li{
 	margin: 20px;
 }
 
 /* nudge in radio buttons so they're not cut off */
 li input{
 	margin: 5px;
+}
+
+/*FONTS*/
+
+@font-face {
+	font-family: "BentonSansCond Regular";
+	src: url("http://fonts.registerguard.com/benton/sanscondbold.eot");
+	src: url("http://fonts.registerguard.com/benton/sanscondbold.eot?#iefix") format("embedded-opentype"),
+		url("http://fonts.registerguard.com/benton/sanscondbold.woff") format("woff"),
+		url("http://fonts.registerguard.com/benton/sanscondbold.ttf") format("truetype"),
+		url("http://fonts.registerguard.com/benton/sanscondbold.svg#web") format("svg");
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "MillerHeadline Bold";
+	src: url("http://fonts.registerguard.com/miller/headlinebold.eot");
+	src: url("http://fonts.registerguard.com/miller/headlinebold.eot?#iefix") format("embedded-opentype"),
+		url("http://fonts.registerguard.com/miller/headlinebold.woff") format("woff"),
+		url("http://fonts.registerguard.com/miller/headlinebold.ttf") format("truetype"),
+		url("http://fonts.registerguard.com/miller/headlinebold.svg#web") format("svg");
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "MillerHeadline Light";
+	src: url("http://fonts.registerguard.com/miller/headlinelight.eot");
+	src: url("http://fonts.registerguard.com/miller/headlinelight.eot?#iefix") format("embedded-opentype"),
+		url("http://fonts.registerguard.com/miller/headlinelight.woff") format("woff"),
+		url("http://fonts.registerguard.com/miller/headlinelight.ttf") format("truetype"),
+		url("http://fonts.registerguard.com/miller/headlinelight.svg#web") format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family:"RGWeb";
+	src:url("http://fonts.registerguard.com/rg/rgweb.eot");
+	src:url("http://fonts.registerguard.com/rg/rgweb.eot?#iefix") format("embedded-opentype"),
+		url("http://fonts.registerguard.com/rg/rgweb.woff") format("woff"),
+		url("http://fonts.registerguard.com/rg/rgweb.ttf") format("truetype"),
+		url("http://fonts.registerguard.com/rg/rgweb.svg#RGWeb") format("svg");
+	font-weight:normal;font-style:normal;
 }
