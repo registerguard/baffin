@@ -23,6 +23,23 @@ a:hover { color: #ae1a1f; }
 
 a:active { color: #ae1a1f; }
 
+body{
+	font-family: Arial, sans-serif;
+	font-size: 1.1em;
+}
+
+input{
+	font-size: 16px!important;
+}
+
+textarea{
+	font-size: 16px!important;
+}
+
+select{
+	font-size: 16px!important;
+}
+
 /* home wrap */
 .home-wrap{
 	max-width: 960px;
