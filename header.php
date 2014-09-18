@@ -12,8 +12,8 @@
 	<script src="http://zeppelin.registerguard.com/prod/0.1.0/20140911/1/scripts/zeppelin.min.js"></script>
 	<!-- [END] Zeppelin -->	
 	
-	<!-- <link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/base-min.css"> -->
-	<!-- <link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/forms-min.css"> -->
+	<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/base-min.css">
+	<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/forms-min.css">
 	<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/style.css">
 	
 	<?=wp_head()?> 
