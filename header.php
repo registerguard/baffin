@@ -24,6 +24,6 @@
 	<!-- [BEGIN] head -->
 	<header id="zeppelin" role="banner">
 		<h6><a href="http://registerguard.com">The Register-Guard</a></h6>
-		<p><a href="<?=home_url();?>">more forms</a></p>
+		<p><a href="<?=home_url();?>">forms</a></p>
 	</header>
 	<!-- [END] head -->
