@@ -25,6 +25,9 @@ The Blackburn B-5 Baffin was a 1930's biplane torpedo bomber. It is also the nam
 ```
 Your monthly investment is: {monthly investment:30}
 ```
+  * The {} tag breaks down like this: The first part, the text, is simply the `Field Label` and the number is the Field ID which can be found at the top of the field box when it's expanded or hovered on.
+
+![screen shot 2014-09-18 at 12 39 44 pm copy](https://cloud.githubusercontent.com/assets/4853944/4326085/b739743c-3f6b-11e4-8ace-b500fc00a52d.png)
 
 #### Add it to a post:
 
@@ -62,3 +65,12 @@ Number field 2:
 * Click `Enable Calculation` and put in your logic.
 
 ![math2](https://cloud.githubusercontent.com/assets/4853944/4325675/89d30368-3f67-11e4-8661-cf884c1df648.gif)
+
+#### Basic line breaks
+
+* Add an HTML field where you want the line break and simply type `<hr>` into the field.
+* This will add what is known as a head rule and can serve a simple line break.
+
+#### Default values
+
+* These can be added under the `Advanced` tab of each field.
