@@ -9,7 +9,12 @@
 add_action("gform_field_css_class", "custom_class", 10, 3);
 function custom_class($classes, $field, $form){
 	$classes .= " pure-form";
-    return $classes;
+	return $classes;
+}
+
+add_filter("gform_column_input_1_62_1", "set_column", 10, 5);
+function set_column($input_info, $field, $column, $value, $form_id){
+	return array("type" => "select", "choices" => "First Choice,Second Choice");
 }
 
 ?>
