@@ -107,6 +107,13 @@ li input{
 	margin: 5px;
 }
 
+.form-dategrid{
+	width: 25%;
+	margin: 0;
+	clear: none;
+	float: left;
+}
+
 /*FONTS*/
 
 @font-face {
