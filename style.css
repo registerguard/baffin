@@ -110,7 +110,7 @@ li input{
 .form-dategrid{
 	width: 25%;
 	margin: 0;
-	clear: none;
+	clear: none!important;
 	float: left;
 }
 
