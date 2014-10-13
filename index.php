@@ -4,15 +4,20 @@
 		
 		<div class="form-inner">
 		
-			<!-- [BEGIN] The loop -->
-			<?php while (have_posts()): ?>
+			<?php // https://github.com/registerguard/baffin/issues/5 ?>
 			
-				<?=the_post()?>
+			<?php $sans_protected = new WP_Query(array('has_password' => FALSE)); ?>
 			
+			<?php while ($sans_protected->have_posts()): ?>
+				
+				<?=$sans_protected->the_post()?>
+				
 				<h1><a href="<?=the_permalink()?>"><?=the_title()?></a></h1>
-				<div class="form-category"><?=the_category()?></div>
+				<div><?=the_category()?></div>
 				
 			<?php endwhile; ?>
+			
+			<?php wp_reset_postdata(); ?>
 			<!-- [END] The loop -->
 			
 		</div><!-- /.form-inner -->
