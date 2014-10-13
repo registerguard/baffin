@@ -13,7 +13,7 @@
 				<?=$sans_protected->the_post()?>
 				
 				<h1><a href="<?=the_permalink()?>"><?=the_title()?></a></h1>
-				<div><?=the_category()?></div>
+				<div class="form-category"><?=the_category()?></div>
 				
 			<?php endwhile; ?>
 			
