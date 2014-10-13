@@ -114,6 +114,10 @@ li input{
 	float: left;
 }
 
+.gf_progressbar_wrapper{
+	display: none;
+}
+
 /*FONTS*/
 
 @font-face {
